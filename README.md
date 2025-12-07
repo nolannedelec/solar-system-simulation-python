@@ -19,7 +19,8 @@ Le projet explore trois approches pour résoudre les équations du mouvement :
    ```bash
    git clone [https://github.com/nolan-nedelec/solar-system-simulation.git](https://github.com/nolan-nedelec/solar-system-simulation.git)
 2. Installer les dépendances :
+   ```bash
    pip install numpy matplotlib
-3. Lancer les programmes
+4. Lancer les programmes
 
 Projet réalisé pour analyser la stabilité numérique des systèmes dynamiques.
