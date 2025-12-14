@@ -14,6 +14,11 @@ Le projet explore trois approches pour résoudre les équations du mouvement :
 * **Calcul :** NumPy (Optimisation vectorielle)
 * **Visualisation :** Matplotlib
 
+
+### Installation & Utilisation
+
+Vous pouvez lancer la simulation de deux manières.
+#### Option A : Installation Classique (Python)
 ### Lancer la simulation
 1. Cloner le repository :
    ```bash
@@ -21,6 +26,19 @@ Le projet explore trois approches pour résoudre les équations du mouvement :
 2. Installer les dépendances :
    ```bash
    pip install numpy matplotlib
-4. Lancer les programmes
+3. Lancer les programmes
 
+#### Option B : Lancer via Docker 🐳 (Recommandé)
+Cette méthode garantit que la simulation tourne dans un environnement isolé, sans avoir à gérer les versions de Python ou les bibliothèques.
+
+1.  **Construire l'image :**
+    ```bash
+    docker build -t solar-system .
+    ```
+
+2.  **Lancer la simulation :**
+    ```bash
+    docker run --rm -v ${PWD}:/app solar-system
+    ```
+    *Le script générera les graphiques des orbites directement dans votre dossier actuel.*
 Projet réalisé pour analyser la stabilité numérique des systèmes dynamiques.
