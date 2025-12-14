@@ -1,5 +1,7 @@
 # 🪐 Simulation N-Corps du Système Solaire (Comparatif Algorithmique)
 
+> **Comparatif d'algorithmes d'intégration numérique pour la mécanique céleste.**
+
 Ce projet implémente et compare différentes méthodes d'intégration numérique pour simuler les interactions gravitationnelles du système solaire. Il met en évidence l'importance du choix de l'algorithme sur la stabilité des orbites.
 ---
 ### Méthodes Implémentées & Comparaison
