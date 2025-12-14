@@ -6,4 +6,4 @@ WORKDIR /app
 # installation des dépendances scientifiques
 RUN pip install --no-cache-dir numpy matplotlib
 COPY . .
-CMD ["python", "main.py"]
+CMD ["python", "runge_kutta.py"]
